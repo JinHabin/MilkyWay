@@ -23,14 +23,3 @@
     border-bottom : 1px solid black;
     font-weight : bold;
 }
-
-#homewelfare {
-    position: absolute;
-    visibility: visible;
-    width : 880px;
-}
-#lifeWelfare {
-    position: absolute;
-    visibility: hidden;
-    width : 880px;
-}
