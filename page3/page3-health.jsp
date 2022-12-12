@@ -11,34 +11,17 @@
     <link rel="stylesheet" href="page3_health.css">
     
 <script type="text/javascript">
-    function changeContent1() {
-        homewelfare.style.visibility="visible";
-        lifeWelfare.style.visibility="hidden";
-        medic.style.visibility="hidden";
-        let b1=document.getElementById("b1");
-        b1.classList.add("a1");
-        let b2=document.getElementById("b2");
-        b2.classList.remove("a1");
-        let b3=document.getElementById("b3");
-        b3.classList.remove("a1");
-    }
     function changeContent2() {
-        homewelfare.style.visibility="hidden";
         lifeWelfare.style.visibility="visible";
         medic.style.visibility="hidden";
-        let b1=document.getElementById("b1");
-        b1.classList.remove("a1");
         let b2=document.getElementById("b2");
         b2.classList.add("a1");
         let b3=document.getElementById("b3");
         b3.classList.remove("a1");
     }
     function changeContent3() {
-        homewelfare.style.visibility="hidden";
         lifeWelfare.style.visibility="hidden";
         medic.style.visibility="visible";
-        let b1=document.getElementById("b1");
-        b1.classList.remove("a1");
         let b2=document.getElementById("b2");
         b2.classList.remove("a1");
         let b3=document.getElementById("b3");
@@ -116,8 +99,7 @@ else {%>
       <div id = "subMenu">
           <div class="a">
               <ul class="ul2">
-                  <li class="n"><button id="b1" class="btn3 a1" type="button" onclick="changeContent1()">셀프건강검진</button></li>
-                  <li class="n"><button id="b2" class="btn3" type="button" onclick="changeContent2()">건강에 좋은 음식</button></li>
+                  <li class="n"><button id="b2" class="btn3 a1" type="button" onclick="changeContent2()">건강에 좋은 음식</button></li>
                   <li class="n"><button id="b3" class="btn3" type="button" onclick="changeContent3()">운동 습관 갖기</button></li>
               </ul>
           </div>
