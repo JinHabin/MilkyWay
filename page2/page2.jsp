@@ -73,7 +73,7 @@ else {%>
 	<ul class="ul2">
 	        <li><button class="btn2" type="button" onclick="location.href='page3.jsp'">건강/혜택</button></li>
 	        <li><button class="btn2" type="button" onclick="location.href='notice_read.jsp'">공지사항</button></li>
-	        <li><button class="btn2" type="button">커뮤니티</button></li>
+	        <li><button class="btn2" type="button" onclick="location.href='community.jsp'">커뮤니티</button></li>
 	        <li><div class="showname"><%=usrName %>님 반갑습니다.</div></li>
 	    </ul>
 	</div>
