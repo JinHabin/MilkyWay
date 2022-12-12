@@ -47,7 +47,7 @@ if (usrId==null) {%>
 	<ul class="ul2">
 	        <li><button class="btn2" type="button" onclick="location.href='page3.jsp'">건강/혜택</button></li>
 	        <li><button class="btn2" type="button" onclick="location.href='notice_read.jsp'">공지사항</button></li>
-	        <li><button class="btn2" type="button">커뮤니티</button></li>
+	        <li><button class="btn2" type="button" onclick="location.href='community.jsp'">커뮤니티</button></li>
 	        <li><button class="btn41" type="button">회원가입</button></li>
 	        <li><button class="btn42" type="button">로그인</button></li>
 	    </ul>
