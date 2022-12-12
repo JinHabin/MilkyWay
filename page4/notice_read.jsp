@@ -211,7 +211,7 @@ for (int i=0; i<5; i++) {
 		<tr height="30">
 		<td class="number" align="center"><%=rownum-5*(pn-1)-i %></td>
 		<td class="type1" align="center"><%=rs.getString("type") %></td>
-		<td class="title" align="center"><a href="4-read-welfare.jsp?id=<%=id%>">[<%=rs.getString("type")%>]<%=rs.getString("title") %></a></td>
+		<td class="title" align="center"><a href="4-read.jsp?id=<%=id%>">[<%=rs.getString("type")%>]<%=rs.getString("title") %></a></td>
 		<td class="author" align="center"><%=rs.getString("name") %></td>		
 		<td class="time" align="center"><%=rs.getString("wtime") %></td>
 		</tr>
