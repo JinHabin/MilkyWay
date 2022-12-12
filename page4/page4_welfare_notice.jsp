@@ -197,8 +197,14 @@ break;
       %>
       </tr>
       </table>
-      <button class="write" type="button" onclick="location.href='welfare_notice_write.jsp'">
-              글작성</button>
+          <% if (usrId==null) {
+    	  %>
+    	  <button class="write" type="button" onclick="location.href='welfare_notice_write.jsp'">
+          글작성</button>
+          <%
+      } else {
+      }
+    	  %>
       </div>          
   </section>
 </div>
