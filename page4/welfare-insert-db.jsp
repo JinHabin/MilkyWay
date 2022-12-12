@@ -21,8 +21,8 @@ String sql_update;
 
 try {
 	Class.forName("com.mysql.jdbc.Driver");
-	String jdbcurl = "jdbc:mysql://localhost:3306/wpproject?serverTimezone=UTC";
-	conn=DriverManager.getConnection(jdbcurl,"root","00000001");
+	String jdbcurl = "jdbc:mysql://localhost:3306/bbs?serverTimezone=UTC";
+	conn=DriverManager.getConnection(jdbcurl,"root","0000");
 	stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,ResultSet.CONCUR_UPDATABLE);
 	String sql="select max(id) from welfarenotice";
 	rs=stmt.executeQuery(sql);
