@@ -68,8 +68,8 @@ else {%>
 }
 %>
 <div class="main">
-    <header onclick="location.href='http://naver.com'">
-    <img class="titleimage" src="title_image.png"/>
+    <header onclick="location.href='main.jsp'">
+    <img class="titleimage" src="logo.png"/>
     </header>
 </div>
 
