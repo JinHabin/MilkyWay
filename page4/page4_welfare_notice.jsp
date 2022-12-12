@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>요양시설 정보</title>
+    <title>복지관 소식</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="basicdesign.css">
     <link rel="stylesheet" href="page4_welfare_notice.css">
@@ -73,7 +73,7 @@ else {%>
     </header>
 </div>
 <div class="goOtherMenu1">
-    <div id="subborder"><h2><center><b>복지관 정보</b></center></h2>
+    <div id="subborder"><h2><center><b>복지관 소식</b></center></h2>
     </div>
 </div>
 <div id="makeLine"></div>
