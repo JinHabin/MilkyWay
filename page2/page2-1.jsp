@@ -51,7 +51,7 @@
 <body>
 <div class="main">
     <header onclick="location.href='main.jsp'">
-    <img class="titleimage" src="title_image.png"/>
+    <img class="titleimage" src="logo.png"/>
     </header>
 </div>
 <div class="board">
