@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style type="text/css">
         .main {
             text-align : center;
@@ -42,8 +43,8 @@
 </head>
 <body>
 <div class="main">
-    <header onclick="location.href='http://naver.com'">
-    <img class="titleimage" src="title_image.png"/>
+    <header onclick="location.href='main.jsp'">
+    <img class="titleimage" src="logo.png"/>
     </header>
 </div>
 <div class="board">
