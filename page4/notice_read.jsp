@@ -157,8 +157,8 @@ if (t==null) {
 
 try {
 	Class.forName("com.mysql.jdbc.Driver");
-	String jdbcurl = "jdbc:mysql://localhost:3306/wpproject?serverTimezone=UTC";
-	conn=DriverManager.getConnection(jdbcurl,"root","00000001");
+	String jdbcurl = "jdbc:mysql://localhost:3306/bbs?serverTimezone=UTC";
+	conn=DriverManager.getConnection(jdbcurl,"root","0000");
 	stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,ResultSet.CONCUR_UPDATABLE);
 	if (t.equals("e")) {
 		sql="select * from noticedata where type='행사' order by id desc";
