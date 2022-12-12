@@ -361,9 +361,14 @@ try {
 	      %>
 	      </tr>
 	      </table>
-	      <button class="write" type="button" onclick="location.href='page2-1.jsp'">
-	              기관등록</button>
-
+      <% if (usrId==null) {
+    	  %>
+    	  <button class="write" type="button" onclick="location.href='page2-1.jsp'">
+          글작성</button>
+          <%
+      } else {
+      }
+    	  %>
           </div>
           </section>
               </div>
