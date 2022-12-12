@@ -1,0 +1,25 @@
+.a1 {
+    background-color : white;
+}
+.n {
+    list-style : none;
+    display : inline;
+    position : relative;
+}
+.btn3 {
+    padding : 10px 20px 10px 20px;
+    background-color : white;
+    border : none;
+    width : 200px;
+    font-size : 15px;
+    border-bottom : 1px solid black;
+}
+.btn3:hover {
+    padding : 10px 20px 10px 20px;
+    background-color : white;
+    border : none;
+    width : 200px;
+    font-size : 15px;
+    border-bottom : 1px solid black;
+    font-weight : bold;
+}
