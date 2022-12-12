@@ -44,8 +44,8 @@ usrName=(String)session.getAttribute("userName");
 if (usrId==null) {%>
 	<div class="goOtherMenu">
 	<ul class="ul2">
+	        <li><button class="btn2" type="button" onclick="location.href='page2.jsp'">복지관 정보</button></li>
 	        <li><button class="btn2" type="button" onclick="location.href='page3.jsp'">건강/혜택</button></li>
-	        <li><button class="btn2" type="button" onclick="location.href='notice_read.jsp'">공지사항</button></li>
 	        <li><button class="btn2" type="button" onclick="location.href='community.jsp'">커뮤니티</button></li>
 	        <li><button class="btn41" type="button">회원가입</button></li>
 	        <li><button class="btn42" type="button">로그인</button></li>
@@ -57,15 +57,16 @@ if (usrId==null) {%>
 else {%>
 <div class="goOtherMenu">
 	<ul class="ul2">
+	        <li><button class="btn2" type="button" onclick="location.href='page2.jsp'">복지관 정보</button></li>
 	        <li><button class="btn2" type="button" onclick="location.href='page3.jsp'">건강/혜택</button></li>
-	        <li><button class="btn2" type="button" onclick="location.href='notice_read.jsp'">공지사항</button></li>
-	        <li><button class="btn2" type="button">커뮤니티</button></li>
+	        <li><button class="btn2" type="button" onclock="location.href='community.jsp'">커뮤니티</button></li>
 	        <li><div class="showname"><%=usrName %>님 반갑습니다.</div></li>
 	    </ul>
 	</div>
 <%	
 }
 %>
+
 <div class="main">
     <header onclick="location.href='http://naver.com'">
     <img class="titleimage" src="title_image.png"/>
