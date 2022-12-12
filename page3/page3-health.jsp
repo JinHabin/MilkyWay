@@ -104,9 +104,6 @@ else {%>
               </ul>
           </div>
       </div>
-<div class="a" id="homewelfare">
-셀프건강검진내용
-</div>
 
 <div class="a" id="lifeWelfare" visibility="none">
 	          <ol><li>적당한 체중을 유지하자
