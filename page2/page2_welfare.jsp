@@ -84,7 +84,7 @@ else {%>
     </header>
 </div>
 <div class="goOtherMenu1">
-    <div id="subborder"><h2><center><b>복지관 정보</b></center></h2>
+    <div id="subborder"><h2><center><b> 정보</b></center></h2>
     </div>
 </div>
 <div id="makeLine">
@@ -94,7 +94,7 @@ else {%>
     <nav>
       <ul class="ul1">
           <li><button class="btn" type="button" onclick="location.href='page2.jsp'">복지관 정보</button></li>
-              <li><button class="btn" type="button" onclick="location.href='page2_welfare.jsp'">요양시설 검색</button></li>
+              <li><button class="btn" type="button" onclick="location.href='page2_welfare.jsp'">요양시설 정보</button></li>
       </ul>
   </nav>
   </div>
