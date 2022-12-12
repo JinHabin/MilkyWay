@@ -20,7 +20,7 @@
 	ResultSet myResultSet = null; 
 	String mySQL = "";
 
-	String dburl  = "jdbc:mysql://localhost:3306/BBS?serverTimezone=UTC";
+	String dburl  = "jdbc:mysql://localhost:3306/User?serverTimezone=UTC";
 	String user="root"; 
 	String passwd="0000";
 
@@ -30,7 +30,7 @@
     } catch(SQLException ex) {
 	    System.err.println("SQLException: " + ex.getMessage());
 	}
-    mySQL = "select userID, userName, userPassword from student where userID='" + session_id + "'" ;
+    mySQL = "select userID, userName, userPassword from user where userID='" + session_id + "'" ;
 	myResultSet = stmt.executeQuery(mySQL);
 	if (myResultSet.next()) {
 		String userID = myResultSet.getString("userID");
