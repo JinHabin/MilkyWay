@@ -14,27 +14,27 @@
     <div id="menuSection">
         <div class="menuBoxWrap">
             <div class="menuBox">
-                <a href="복지관, 요양시설"><i class="fa-solid fa-map-location-dot fa-4x"></i><br>
+                <a href="../page2/page2.jsp"><i class="fa-solid fa-map-location-dot fa-4x"></i><br>
                     복지관·요양시설</a>
                 <hr>
             </div>
             <div class="menuBox">
-                <a href="건강"><i class="fa-solid fa-heart-pulse fa-4x"></i><br>
+                <a href="../page3/page3-health.jsp"><i class="fa-solid fa-heart-pulse fa-4x"></i><br>
                     건강</a>
                 <hr>
             </div>
             <div class="menuBox">
-                <a href="혜택"><i class="fa-solid fa-hand-holding-heart fa-4x"></i><br>
+                <a href="../page3/page3.jsp"><i class="fa-solid fa-hand-holding-heart fa-4x"></i><br>
                     혜택</a>
                 <hr>
             </div>
             <div class="menuBox" style="clear: both">
-                <a href="notice_read.jsp"><i class="fa-solid fa-check-to-slot fa-4x"></i><br>
+                <a href="../page4/notice_read.jsp"><i class="fa-solid fa-check-to-slot fa-4x"></i><br>
                     공지사항</a>
                 <hr>
             </div>
             <div class="menuBox">
-                <a href="커뮤니티"><i class="fa-solid fa-people-roof fa-4x"></i><br>
+                <a href="../community/community.jsp"><i class="fa-solid fa-people-roof fa-4x"></i><br>
                     커뮤니티</a>
                 <hr>
             </div>
