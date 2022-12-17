@@ -23,7 +23,7 @@
 	try {
 		String dbURL = "jdbc:mysql://localhost:3306/user?serverTimezone=UTC";
 		String dbID = "root";
-		String dbPassword = "mhwand7303";
+		String dbPassword = "0000";
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		myConn = DriverManager.getConnection(dbURL, dbID, dbPassword);
@@ -40,15 +40,6 @@
 		String userName = myResultSet.getString("userName");
 		String userPassword = myResultSet.getString("userPassword");
 %>
-	<div class="goOtherMenu">
-	<ul class="ul2">
-	        <li class="n"><button class="btn2" type="button" onclick="location.href='page2.jsp'">복지관 정보</button></li>
-	        <li class="n"><button class="btn2" type="button" onclick="location.href='notice_read.jsp'">공지사항</button></li>
-	        <li class="n"><button class="btn2" type="button" onclick="location.href='community.jsp'">커뮤니티</button></li>
-	        <li class="n"><button class="btn41" type="button">회원가입</button></li>
-	        <li class="n"><button class="btn42" type="button">로그인</button></li>
-	    </ul>
-	</div>
 <div class="goOtherMenu">
 	<ul class="ul2">
 	        <li class="n"><button class="btn2" type="button" onclick="location.href='page2.jsp'">복지관 정보</button></li>
