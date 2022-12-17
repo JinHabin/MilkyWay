@@ -23,7 +23,7 @@
 	} catch(SQLException ex) {
 		System.err.println("SQLException: " + ex.getMessage());
 	}
-    mySQL = "update student ";
+    mySQL = "update user ";
 	mySQL = mySQL + " set userID ='" + userID + "' , " ;	
 	mySQL = mySQL + " userPassword ='" + userPassword + "' where userID='" + userID + "' "; 
 	mySQL = mySQL + " userName ='" + userName + "' where userID='" + userID + "' "; 
