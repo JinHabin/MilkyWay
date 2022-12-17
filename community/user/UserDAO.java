@@ -16,7 +16,7 @@ public class UserDAO {
  
             String dbURL = "jdbc:mysql://localhost:3306/user?serverTimezone=UTC";
             String dbID = "root";
-            String dbPassword = "mhwand7303";
+            String dbPassword = "0000";
  
             Class.forName("com.mysql.cj.jdbc.Driver");
  
