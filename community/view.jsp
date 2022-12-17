@@ -41,7 +41,7 @@ pageEncoding="UTF-8"%>
         PrintWriter script = response.getWriter();
         script.println("<script>");
         script.println("alert('유효하지 않은 글입니다.')");
-        script.println("location.href = 'bbs.jsp'");
+        script.println("location.href = 'community.jsp'");
         script.println("</script>");
     }
     
@@ -94,14 +94,14 @@ pageEncoding="UTF-8"%>
             </tr>
         </tbody>
         </table>
-        <a href="Ibbs.jsp" class="btn btn-outline-primary" style="margin:3px; background-color:#b1cfd5">목록</a>
+        <a href="community.jsp" class="btn btn-outline-primary" style="margin:3px; background-color:#b1cfd5">목록</a>
         <%
             if(userID != null && userID.equals(bbs.getUserID())){
         %>
             <div class="col float-right">                
                  <div class="dropdown actionButtons float-right">
-                     <a href="Iupdate.jsp?bbsID=<%= bbsID %>" class="btn btn-outline-secondary" style="margin:3px; background-color:#b1cfd5">수정</a>
- 	                 <a onclick="return confirm('정말로 삭제하시겠습니까?')" href="IdeleteAction.jsp?bbsID=<%= bbsID %>" class="btn btn-outline-danger" style="margin: 5px">삭제</a>
+                     <a href="update.jsp?bbsID=<%= bbsID %>" class="btn btn-outline-secondary" style="margin:3px; background-color:#b1cfd5">수정</a>
+ 	                 <a onclick="return confirm('정말로 삭제하시겠습니까?')" href="deleteAction.jsp?bbsID=<%= bbsID %>" class="btn btn-outline-danger" style="margin: 5px">삭제</a>
                    </div>
             </div>
         <%
