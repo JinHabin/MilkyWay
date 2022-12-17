@@ -1,0 +1,118 @@
+li {
+    list-style: none;
+    display: inline;
+    position : relative;
+}
+#notice {
+    text-align : center;
+    border : 1px solid black;
+}
+.type {
+    width : 100px;
+    border : 1px solid black;
+    padding : 0px;
+}
+#selectLocation {
+	height :20px;
+}
+.name {
+    width : 380px;
+    border : 1px solid black;
+    padding : 0px;
+}
+.addr {
+    width : 400px;
+    border : 1px solid black;
+    padding : 0px;
+}
+
+.lnk {
+    width : 200px;
+    border : 1px solid black;
+    padding : 0px;
+}
+select {
+	height : 30px;
+}
+.option1 {
+    width:100px;
+    height : 30px;
+}
+.write {
+    float : right;
+}
+.tablediv {
+    height : 515px;
+}
+.btn5 {
+	width : 100px;
+	height : 30px;
+	background-color : white;
+	border : 1px solid black;
+	
+}
+.aa{
+            list-style: none;
+            display: inline;
+            position : relative;
+}
+#makeOption {
+	height : 100px;
+}
+.op {
+	height : 50px;
+	z-index:-1;
+}
+
+.aa1 {
+	list-style: none;
+	display : inline;
+	position : relative;
+	width : 75px;
+}
+.selOther {
+            width : 100px;
+            height : 30px;
+            background-color: white;
+            border : 1px solid black;
+            padding-botton : 0px;
+
+        }
+        .selButton {
+            width : 100x;
+            height : 30px;
+            background-color: white;
+            border : 1px solid black;
+            margin-left : 10px;
+            border-radius : 1px;
+            padding-top : 0px;
+            visibility: hidden;
+        }
+        .selButton1 {
+            width : 100px;
+            height : 30px;
+            background-color: white;
+            border : 1px solid black;
+            margin-left : 10px;
+            border-radius : 1px;
+            padding-top : 0px;
+            visibility: hidden;
+        }
+
+        .displayOption {
+            visibility: visible;
+        }
+        .btn22 {
+            background-color: white;
+            width : 35px;
+            height : 35px;
+            font-size : 15px;
+            border : 1px solid black;        
+        }
+        .paging {
+        text-align : center;
+        height : 35px;
+        margin-left : auto;
+        margin-right : auto;
+        }
+
