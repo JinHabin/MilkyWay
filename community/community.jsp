@@ -24,6 +24,12 @@
 </head>
 <body>  
 <% 
+       String userID = null;
+ 
+        if (session.getAttribute("userID") != null) {
+            userID = (String) session.getAttribute("userID");
+        }
+ 
      int pageNumber = 1; //기본 페이지 1로 설정
          
      if (request.getParameter("pageNumber") != null) {
@@ -76,12 +82,12 @@
             <%
                 if (pageNumber != 1) {    //현재 페이지가 1이 아니라면
             %>
-                <a href="Ibbs.jsp?pageNumber=<%=pageNumber - 1%>" class="btn btn-success btn-arrow-left" style="margin:3px; background-color:#b1cfd5">이전</a>
+                <a href="community.jsp?pageNumber=<%=pageNumber - 1%>" class="btn btn-success btn-arrow-left" style="margin:3px; background-color:#b1cfd5">이전</a>
             <%
                 }    if (bbsDAO.nextPage(pageNumber)) {    //다음 페이지가 존재할 경우
  
             %>
-                <a href="Ibbs.jsp?pageNumber=<%=pageNumber + 1%>" class="btn btn-success btn-arrow-left" style="margin:3px; background-color:#b1cfd5">다음</a>
+                <a href="community.jsp?pageNumber=<%=pageNumber + 1%>" class="btn btn-success btn-arrow-left" style="margin:3px; background-color:#b1cfd5">다음</a>
             <%
                 }
             %>
