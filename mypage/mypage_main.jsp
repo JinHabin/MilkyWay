@@ -45,7 +45,8 @@
 	        <li class="n"><button class="btn2" type="button" onclick="location.href='page2.jsp'">복지관 정보</button></li>
 	        <li class="n"><button class="btn2" type="button" onclick="location.href='notice_read.jsp'">공지사항</button></li>
 	        <li class="n"><button class="btn2" type="button" onclick="location.href='community.jsp'">커뮤니티</button></li>
-	        <li class="n"><div class="showname"><%=userName %>님 반갑습니다.</div></li>
+		<li class="n"><button class="btn41" type="button">회원가입</button></li>
+	        <li class="n"><button class="btn42" type="button">로그인</button></li>
 	    </ul>
 	</div>
 <div class="main">
