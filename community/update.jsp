@@ -43,7 +43,7 @@ pageEncoding="UTF-8"%>
         PrintWriter script = response.getWriter();
         script.println("<script>");
         script.println("alert('유효하지 않은 글입니다.')");
-        script.println("location.href = 'bbs.jsp'");
+        script.println("location.href = 'community.jsp'");
         script.println("</script>");
     }
     
@@ -54,7 +54,7 @@ pageEncoding="UTF-8"%>
         PrintWriter script = response.getWriter();
         script.println("<script>");
         script.println("alert('권한이 없습니다.')");
-        script.println("location.href = 'bbs.jsp'");
+        script.println("location.href = 'community.jsp'");
         script.println("</script>");
         
     }
