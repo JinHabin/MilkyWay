@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+li{
+    list-style: none;
+    display: inline;
+    position : relative;
+}
+#notice {
+    text-align : center;
+    border : 1px solid black;
+}
+div #makeOption {
+    padding-top : 10px;
+    width : 100%;
+    /* background-color: #909090; */
+    
+}
+.op {
+	height : 50px;
+	
+	width : 50px;
+}
+.number {
+    width : 100px;
+    border : 1px solid black;
+    padding : 0px;
+}
+.type1 {
+	width : 150px;
+	border : 1px solid black;
+	padding : 0px;
+}
+.title {
+    width : 490px;
+    border : 1px solid black;
+    padding : 0px;
+}
+.author {
+    width : 170px;
+    border : 1px solid black;
+    padding : 0px;
+}
+.time {
+    width : 170px;
+    border : 1px solid black;
+    padding : 0px;
+}
+.write {
+    float: right;
+}
+.tablediv {
+    height : 515px;
+}
+        .selOther {
+            width : 100px;
+            height : 30px;
+            background-color: white;
+            border : 1px solid black;
+            padding : 0;
+
+        }
+        .selButton {
+            width : 100px;
+            height : 30px;
+            background-color: white;
+            border : 1px solid black;
+            padding : 0;
+            border-radius : 1px;
+            padding-top : 0px;
+            visibility: hidden;
+            z-index:-1;
+        }
+        .selButton:hover {
+            width : 100px;
+            height : 30px;
+            background-color: white;
+            border : 1px solid black;
+            font-weight : bold;
+            border-radius : 1px;
+            padding : 0;
+            
+        }
+        
+        .displayOption {
+            visibility: visible;
+            z-index: 10;
+        }
+        .p1 {
+            list-style: none;
+            display: inline;
+            position : relative;
+            width : 35px;
+            height : 35px;
+            border : 1px solid black;
+
+        }
+        .btn22 {
+            background-color: white;
+            width : 35px;
+            height : 35px;
+            font-size : 15px;
+            border : 1px solid black;
+
+        }
+        .paging {
+            text-align : center;
+            height : 35px;
+            margin-left : auto;
+            margin-right : auto;
+        }
