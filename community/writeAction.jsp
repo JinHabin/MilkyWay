@@ -53,7 +53,7 @@
                 else {
                     PrintWriter script = response.getWriter();
                     script.println("<script>");
-                    script.println("location.href = 'bbs.jsp'");
+                    script.println("location.href = 'community.jsp'");
                     script.println("</script>");
                 }
      
